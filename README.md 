@@ -30,20 +30,16 @@ This is a full-stack web application that enables patients to schedule, reschedu
 - Doctor login & schedule management  
 - Real-time booking, cancellation, and rescheduling  
 - Admin panel for user and appointment management  
-- Email/SMS reminders for upcoming appointments  
 - Clean and responsive UI across devices  
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend:** React.js (or update if different)  
+- **Frontend:** React.js   
 - **Backend:** Node.js + Express.js  
-- **Database:** MongoDB / PostgreSQL (update based on your project)  
+- **Database:** MongoDB 
 - **Authentication:** JWT / Sessions  
-- **Notifications:** Email / SMS integration  
-- **Deployment:** Vercel / Heroku / Netlify  
-
 ---
 
 ## ⚙️ Installation & Setup
@@ -51,13 +47,13 @@ This is a full-stack web application that enables patients to schedule, reschedu
 ### Prerequisites
 - Node.js v14+  
 - npm or yarn  
-- MongoDB or PostgreSQL running locally (or cloud DB)  
+- MongoDB (MongoDB cluster)
 
 ### Backend Setup
 ```bash
 cd backend
 npm install
-cp .env.example .env        # Add your environment variables
+cp .env.example .env  
 npm run start  # Or: npm run dev
 
 cd frontend
