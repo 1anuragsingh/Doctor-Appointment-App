@@ -1,0 +1,65 @@
+# Doctor Appointment Booking App
+
+**Doctor Appointment Booking App | Patient-doctor portal with scheduling, cancellations, availability tracking, notifications & admin management.**
+
+---
+
+## 📌 Table of Contents
+
+- [Overview](#overview)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Project Structure](#project-structure)  
+- [Installation & Setup](#installation--setup)  
+- [Usage](#usage)  
+- [Screenshots / Demo](#screenshots--demo)  
+- [Contributing](#contributing)  
+- [License](#license)
+
+---
+
+## 🔎 Overview
+
+This is a full-stack web application that enables patients to schedule, reschedule, and cancel appointments with doctors. Doctors can manage their availability, while admins oversee the system through an intuitive interface.
+
+---
+
+## ✨ Features
+
+- Patient registration & login  
+- Doctor login & schedule management  
+- Real-time booking, cancellation, and rescheduling  
+- Admin panel for user and appointment management  
+- Email/SMS reminders for upcoming appointments  
+- Clean and responsive UI across devices  
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js (or update if different)  
+- **Backend:** Node.js + Express.js  
+- **Database:** MongoDB / PostgreSQL (update based on your project)  
+- **Authentication:** JWT / Sessions  
+- **Notifications:** Email / SMS integration  
+- **Deployment:** Vercel / Heroku / Netlify  
+
+---
+
+## ⚙️ Installation & Setup
+
+### Prerequisites
+- Node.js v14+  
+- npm or yarn  
+- MongoDB or PostgreSQL running locally (or cloud DB)  
+
+### Backend Setup
+```bash
+cd backend
+npm install
+cp .env.example .env        # Add your environment variables
+npm run start  # Or: npm run dev
+
+cd frontend
+npm install
+npm start                   # Runs on http://localhost:3000
